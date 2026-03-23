@@ -1,0 +1,19 @@
+{
+    "accountId": "YOUR_CLOUDFLARE_ACCIUNT_ID",
+    "zoneId": "YOUR_CLOUDFLARE_ZONE_ID",
+    "apiToken": "YOUR_CLOUDFLARE_API_TOKEN",
+    "records": [
+        {
+            "endpoint": "http://httpbin.org/ip",
+            "id": "CLOUDFLARE_DNS_RECORD_ID",
+            "name": "a.example.com",
+            "updateIntervalMinutes": 2
+        },
+        {
+            "endpoint": "http://httpbin.org/ip",
+            "id": "CLOUDFLARE_DNS_RECORD_ID",
+            "name": "b.example.com",
+            "updateIntervalMinutes": 2
+        }
+    ]
+}
