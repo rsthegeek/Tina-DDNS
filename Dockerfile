@@ -10,6 +10,5 @@ FROM alpine:latest
 WORKDIR /app
 
 COPY --from=builder /app/tina-ddns .
-COPY config.json .
 
 CMD ["./tina-ddns"]
